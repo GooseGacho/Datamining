@@ -16,7 +16,8 @@ print('test data shape is: ', test.shape)`
 ```python
 print(train.columns)
 ```
->Index(['id', 'loanAmnt', 'term', 'interestRate', 'installment', 'grade',
+```
+Index(['id', 'loanAmnt', 'term', 'interestRate', 'installment', 'grade',
        'subGrade', 'employmentTitle', 'employmentLength', 'homeOwnership',
        'annualIncome', 'verificationStatus', 'issueDate', 'isDefault',
        'purpose', 'postCode', 'regionCode', 'dti', 'delinquency_2years',
@@ -26,7 +27,7 @@ print(train.columns)
        'policyCode', 'n0', 'n1', 'n2', 'n3', 'n4', 'n5', 'n6', 'n7', 'n8',
        'n9', 'n10', 'n11', 'n12', 'n13', 'n14'],
       dtype='object')
-      
+```      
 字段表
 | Field |Description |
 |--|--|
