@@ -7,7 +7,7 @@ import pandas as pd
 train = pd.read_csv('./train.csv')
 test = pd.read_csv('./testA.csv')
 print('train data shape is: ', train.shape)
-print('test data shape is: ', test.shape)`
+print('test data shape is: ', test.shape)
 ```
 > train data shape is:  (800000, 47)
 >test data shape is:  (200000, 46)
