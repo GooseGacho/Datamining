@@ -11,11 +11,12 @@
 	
 
  - 数据挖掘比赛：
-	1. [天池大数据比赛学习赛贷款违约预测](https://tianchi.aliyun.com/competition/entrance/531830/introduction)
-	2. 待定
+	1. [天池大数据比赛学习赛贷款违约预测](https://tianchi.aliyun.com/competition/entrance/531830/introduction)（案例教学、平时作业评分）
+	2. 学期中发布。
 
 ### 2. 大数据的定义
 
+大数据 -> 获得片面数据无法获得的信息
 
 大数据源于信息技术的不断廉价化与互联网及其延伸所带来的无处不在的信息技术应用，四个驱动：
 1. 摩尔定律驱动的指数增长模式 （ **硬件** ）
