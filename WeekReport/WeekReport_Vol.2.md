@@ -49,7 +49,7 @@ print(f'There are {train.isnull().any().sum()} columns in train dataset with mis
 数值型特征本是可以直接入模的，但往往风控人员要对其做分箱，转化为WOE编码进而做标准评分卡等操作。从模型效果上来看，特征分箱主要是为了降低变量的复杂性，减少变量噪音对模型的影响，提高自变量和因变量的相关度。从而使模型更加稳定。
 在开始展开分析工作前，我们要在心中明确一下分析的目的： 查找挖掘目标变量贷款违约（isDefault)和其他变量的关系。因而有必要先知道目标值的分布情况。
 
-# 查看目标变量isDefault的分布
+## 查看目标变量isDefault的分布
 ```python
 train.isDefault.value_counts()
 ```
