@@ -78,15 +78,15 @@ Baggin和Boosting的区别总结如下：
  - 贪心调参
 先使用当前对模型影响最大的参数进行调优，达到当前参数下的模型最优化，再使用对模型影响次之的参数进行调优，如此下去，直到所有的参数调整完毕。
 
-这个方法的缺点就是可能会调到局部最优而不是全局最优，但是只需要一步一步的进行参数最优化调试即可，容易理解。
+</Tab>这个方法的缺点就是可能会调到局部最优而不是全局最优，但是只需要一步一步的进行参数最优化调试即可，容易理解。
 
-需要注意的是在树模型中参数调整的顺序，也就是各个参数对模型的影响程度，这里列举一下日常调参过程中常用的参数和调参顺序：
+</Tab>要注意的是在树模型中参数调整的顺序，也就是各个参数对模型的影响程度，这里列举一下日常调参过程中常用的参数和调参顺序：
 
-①：max_depth、num_leaves</Br>
-②：min_data_in_leaf、min_child_weight</Br>
-③：bagging_fraction、 feature_fraction、bagging_freq</Br>
-④：reg_lambda、reg_alpha</Br>
-⑤：min_split_gain</Br>
+</Tab>①：max_depth、num_leaves</Br>
+</Tab>②：min_data_in_leaf、min_child_weight</Br>
+</Tab>③：bagging_fraction、 feature_fraction、bagging_freq</Br>
+</Tab>④：reg_lambda、reg_alpha</Br>
+</Tab>⑤：min_split_gain</Br>
 
  - 网格搜索
 sklearn 提供GridSearchCV用于进行网格搜索，只需要把模型的参数输进去，就能给出最优化的结果和参数。相比起贪心调参，网格搜索的结果会更优，但是网格搜索只适合于小数据集，一旦数据的量级上去了，很难得出结果。
