@@ -29,9 +29,12 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220143140.png#pic_center)
 
 为什么是以2为底的对数？这个可能和信息中的最小单位比特有关（一个比特只有2种状态），其中![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220328205.png#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220402336.png#pic_center)
+
 表示第![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220351983.png#pic_center)
-个分类，表示第个分类的概率函数，并且：![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220437267.png#pic_center)
+个分类，
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220402336.png#pic_center)
+表示第个分类的概率函数，并且：![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220437267.png#pic_center)
 
 由此，信息熵![在这里插入图片描述](https://img-blog.csdnimg.cn/20201019220459450.png#pic_center)
 就可以表示为：
