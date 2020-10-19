@@ -82,11 +82,11 @@ Baggin和Boosting的区别总结如下：
 
 需要注意的是在树模型中参数调整的顺序，也就是各个参数对模型的影响程度，这里列举一下日常调参过程中常用的参数和调参顺序：
 
-①：max_depth、num_leaves
-②：min_data_in_leaf、min_child_weight
-③：bagging_fraction、 feature_fraction、bagging_freq
-④：reg_lambda、reg_alpha
-⑤：min_split_gain
+①：max_depth、num_leaves</Br>
+②：min_data_in_leaf、min_child_weight</Br>
+③：bagging_fraction、 feature_fraction、bagging_freq</Br>
+④：reg_lambda、reg_alpha</Br>
+⑤：min_split_gain</Br>
 
  - 网格搜索
 sklearn 提供GridSearchCV用于进行网格搜索，只需要把模型的参数输进去，就能给出最优化的结果和参数。相比起贪心调参，网格搜索的结果会更优，但是网格搜索只适合于小数据集，一旦数据的量级上去了，很难得出结果。
