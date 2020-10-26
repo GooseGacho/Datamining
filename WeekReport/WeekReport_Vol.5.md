@@ -64,7 +64,7 @@ blending是将预测的值作为新的特征和原特征合并，构成新的特
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201026191602851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FkZ2hqZ2Y=,size_16,color_FFFFFF,t_70#pic_center)
 
 **Stacking**与**Blending**区别：</Br>
-a. stacking</Br>
+a. Stacking</Br>
 （1）stacking中由于两层使用的数据不同，所以可以避免信息泄露的问题。</Br>
 （2）在组队竞赛的过程中，不需要给队友分享自己的随机种子。</Br>
 b. Blending</Br>
